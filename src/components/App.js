@@ -1,8 +1,12 @@
 import React, { Component } from "react";
-import actions from "./actions/index";
+import SongList from "./SongList";
 
 export default class App extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <SongList />
+      </div>
+    );
   }
 }
